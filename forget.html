@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(bg.jpg);   
+    background-size:cover ; 
+    background-position: center;         
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:   
+ 100vh;
+    margin: 180px;
+}
+
+.forgot-password-form   
+ {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.forgot-password-form h2 {
+    margin-bottom: 20px;
+}
+
+.forgot-password-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.forgot-password-form label {
+    margin-bottom: 5px;
+}
+
+.forgot-password-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.forgot-password-form a {
+    color:burlywood;
+    text-decoration: none;
+}
+
+.forgot-password-form button {
+    padding: 10px 20px;
+    background-color:burlywood;
+    color: #130e0e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.forgot-password-form button:hover {
+    background-color: #0062cc;
+}
+    </style>
+</head>
+<body>
+    <div class="forgot-password-form">
+        <h2>Forgot Password</h2>   
+
+        <form>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+
+            <button type="submit">Reset   
+ Password</button>
+        </form>
+
+        <p>Remembered your password? <a href="index.html">Login now</a></p>
+    </div>
+</body>
+</html>

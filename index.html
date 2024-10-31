@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+    background-image: url(bg.jpg);   
+    background-size:cover ; 
+    background-position: center;    
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:   
+ 100vh;
+    margin: 140px;
+}
+
+.login-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius:   
+ 10px;
+    box-shadow: 0 2px 5px rgba(191, 12, 12, 0.326);
+    text-align: center;
+    width: 300px; /* Adjust width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+}
+        
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    margin-bottom: 5px;
+}
+
+.login-form input {
+    padding: 10px;
+    margin-bottom:   
+ 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;   
+
+}
+
+.login-form a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-form button {
+    padding: 10px 20px;
+    background-color:rgb(165, 106, 28);
+    color: #030202;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color:rgb(167, 102, 18);
+}
+
+.button-login, .button-signup {
+    background-color:rgb(152, 95, 20);
+    color: #060303;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.button-login:hover, .button-signup:hover {
+    background-color:rgb(145, 90, 18);
+}
+
+    </style>
+</head>
+<body>
+    <div class="login-form">   
+
+        <h2>Login Form</h2>
+        <button class="button-login">Login</button>
+        <a href ="signup.html"> <button class="button-signup">Signup</button></a>
+
+        <form>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password">   
+
+
+            <a href="forget.html " style="color:burlywood ;">Forgot password?</a>
+
+            
+         <button><a href="home.html " style="color: #060303 ;">Login</a> </button>
+
+        </form>
+
+        <p>Not a member? <a href="signup.html" style="color: burlywood;">Signup now</a></p>
+    </div>
+</body>
+</html>
